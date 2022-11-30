@@ -1,2 +1,2 @@
-# practica_1
-Intro
+# Intro
+Actividades
