@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condicionales3</title>
+</head>
+<body>
+    <script>
+        let nota1, nota2, nota3;
+        let dato1, dato2, dato3, media;
+
+        dato1 = window.prompt("primer numero", "0");
+        nota1 = parseInt(dato1);
+        dato2 = window.prompt("segundo numero", "0");
+        nota2 = parseInt(dato2);
+        dato3 = window.prompt("tercer numero", "0");
+        nota3 = parseInt(dato3);
+
+        media = (nota1 + nota2 + nota3)/3;
+
+        if (media >5)
+        {
+            resultat = "suspendido";
+        }
+        else 
+        {
+            resultat = "aprobado";
+        }
+        document.write(' <h3>la nota final es ${resultat} </h3>');
+        console.log ("la nota final es", String=(resultat));
+    </script>
+</body>
+</html>
