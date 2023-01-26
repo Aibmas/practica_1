@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condicionales</title>
+</head>
+<body>
+    <script>
+        let dia,mes,año;
+        mes=prompt('introduzca el numero del mes:','');
+        mes=parseInt(mes);
+
+        if (mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12)
+        {
+            document.write('este mes tiene 31 dias.');
+        }
+        else 
+        {
+            if (mes==2)
+            document.write('este mes puede tener 30 dias.');
+            else
+            document.write('este mes tiene 30 dias.');
+        }
+
+    </script>
+    
+</body>
+</html>
